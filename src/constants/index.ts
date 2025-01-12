@@ -9,22 +9,19 @@ import type {
 
 import {
   backend,
-  carrent,
   creator,
   css,
   git,
   html,
   javascript,
-  jobit,
-  mobile,
   mongodb,
   nodejs,
   reactjs,
   redux,
   tailwind,
   threejs,
-  tripguide,
-  typescript
+  typescript,
+  web
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -44,13 +41,21 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Full Stack Developer",
+    title: "BA in Computer Science - Harvey Mudd College",
     icon: backend,
   },
   {
-    title: "Web, Mobile, and Software Developer",
-    icon: mobile,
-  },
+    title: "BA in Media Studies - Scripps College",
+    icon: web,
+  }
+  // {
+  //   title: "Full Stack Developer",
+  //   icon: backend,
+  // },
+  // {
+  //   title: "Web, Mobile, and Software Developer",
+  //   icon: mobile,
+  // },
   // {
   //   title: "Backend Developer",
   //   icon: backend,
@@ -241,68 +246,89 @@ const certifications: TCertifications[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Space Mission Exercise",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "React certificate class lab practicing React, routing, API calls, etc.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "nodejs",
         color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
       },
       {
         name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
+    image: "src/assets/projects/space-mission-exercise-1.png",
+    sourceCodeLink: "https://space-mission-exercise.onrender.com/",
   },
   {
-    name: "Trip Guide",
+    name: "List Exercise",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Practice displaying data in Lists using React & Material UI.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "materialui",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    image: "src/assets/projects/lit-lists-exercise-1.png",
+    sourceCodeLink: "https://lit-lists-exercise.onrender.com/",
   },
+  {
+    name: "Grid Exercises",
+    description:
+      "Practice displaying data in Grids using React & Material UI.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "materialui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "src/assets/projects/grid-grind-exercise-1.png",
+    sourceCodeLink: "https://grid-grind-exercise.onrender.com/",
+  },
+  // {
+  //   name: "Trip Guide",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   sourceCodeLink: "https://github.com/",
+  // },
 ];
 
 export { experiences, projects, services, technologies, certifications as testimonials };
