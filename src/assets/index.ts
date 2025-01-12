@@ -1,11 +1,11 @@
-import logo from "./logo.png";
 import backend from "./backend.png";
+import close from "./close.svg";
 import creator from "./creator.png";
+import github from "./github.png";
+import logo from "./logo.png";
+import menu from "./menu.svg";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
-import menu from "./menu.svg";
-import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -18,45 +18,31 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import typescript from "./tech/typescript.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import grid_exercise from "../assets/projects/grid-grind-exercise-1.png";
+import lists_exercise from "../assets/projects/lit-lists-exercise-1.png";
+import space_exercise from "../assets/projects/space-mission-exercise-1.png";
+
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
-  logo,
-  backend,
-  creator,
-  mobile,
-  web,
-  github,
-  menu,
-  close,
-  css,
+  backend, carrent, close, creator, css,
   docker,
   figma,
-  git,
-  html,
-  javascript,
-  mongodb,
+  git, github, grid_exercise, html,
+  javascript, jobit, lists_exercise, logo, menu, meta, mobile, mongodb,
   nodejs,
   reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  redux, shopify, space_exercise, starbucks, tailwind, tesla, threejs, tripguide, typescript, web
 };
+
