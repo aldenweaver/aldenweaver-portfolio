@@ -33,7 +33,7 @@ type TConfig = {
   sections: {
     about: Required<TSection>;
     experience: TSection;
-    feedbacks: TSection;
+    certifications: TSection;
     works: Required<TSection>;
   };
 };
@@ -66,7 +66,7 @@ export const config: TConfig = {
   sections: {
     about: {
       p: "Introduction",
-      h2: "Overview.",
+      h2: "Overview",
       content: `I'm a skilled software developer with experience in TypeScript and
       JavaScript, and expertise in frameworks like React, Node.js, and
       Three.js. I'm a quick learner and collaborate closely with clients to
@@ -74,19 +74,18 @@ export const config: TConfig = {
       real-world problems. Let's work together to bring your ideas to life!`,
     },
     experience: {
-      p: "What I have done so far",
-      h2: "Work Experience.",
+      p: "Industry Track Record",
+      h2: "Work Experience",
     },
-    feedbacks: {
-      p: "What others say",
-      h2: "Testimonials.",
+    certifications: {
+      p: "Lifelong Learning",
+      h2: "Certifications",
     },
     works: {
-      p: "My work",
-      h2: "Projects.",
+      p: "Work Examples",
+      h2: "Projects",
       content: `The following projects showcase my skills and experience through
-    real-world examples of my work. Many of these are simple exercises; however, I have more experience working on proprietary software. Each project is briefly described with links to code repositories and live demos in it. It reflects my
-    ability to solve complex problems, work with different technologies,
+    real-world examples of my work. Many of these are simple exercises; however, I have more experience working on proprietary software. Each project is briefly described with links to code repositories and live demos in it. They reflect my ability to solve complex problems, work with different technologies,
     and manage projects effectively.`,
     },
   },

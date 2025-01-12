@@ -1,30 +1,27 @@
 import type {
+  TCertifications,
   TExperience,
   TNavLink,
   TProject,
   TService,
   TTechnology,
-  TTestimonial,
 } from "../types";
 
 import {
   backend,
   carrent,
+  creator,
   css,
   git,
   html,
   javascript,
   jobit,
-  meta,
   mobile,
   mongodb,
   nodejs,
   reactjs,
   redux,
-  shopify,
-  starbucks,
   tailwind,
-  tesla,
   threejs,
   tripguide,
   typescript
@@ -123,7 +120,7 @@ const experiences: TExperience[] = [
   {
     title: "Intermediate Web Developer",
     companyName: "Semper Valens Solutions",
-    icon: starbucks,
+    icon: creator,
     iconBg: "#383E56",
     date: "June 2024 - Present",
     points: [
@@ -138,7 +135,7 @@ const experiences: TExperience[] = [
   {
     title: "Technical Consultant",
     companyName: "",
-    icon: tesla,
+    icon: creator,
     iconBg: "#E6DEDD",
     date: "June 2023 - June 2024",
     points: [
@@ -150,7 +147,7 @@ const experiences: TExperience[] = [
   {
     title: "Controls Engineer",
     companyName: "H2Power Tech",
-    icon: shopify,
+    icon: creator,
     iconBg: "#383E56",
     date: "Sept 2021 - Oct 2022",
     points: [
@@ -160,7 +157,7 @@ const experiences: TExperience[] = [
   {
     title: "App Tester & Hardware Manager",
     companyName: "Focal Systems",
-    icon: meta,
+    icon: creator,
     iconBg: "#E6DEDD",
     date: "Oct 2020 - Mar 2021",
     points: [
@@ -171,7 +168,7 @@ const experiences: TExperience[] = [
   {
     title: "Software Engineer & Operations Manager",
     companyName: "Mickom",
-    icon: meta,
+    icon: creator,
     iconBg: "#E6DEDD",
     date: "Apr 2020 - Oct 2020",
     points: [
@@ -182,7 +179,7 @@ const experiences: TExperience[] = [
   {
     title: "Software Engineer I",
     companyName: "Vertafore",
-    icon: meta,
+    icon: creator,
     iconBg: "#E6DEDD",
     date: "Jun 2015 - Dec 2017",
     points: [
@@ -192,7 +189,7 @@ const experiences: TExperience[] = [
   {
     title: "Software Engineer Internships",
     companyName: "",
-    icon: meta,
+    icon: creator,
     iconBg: "#E6DEDD",
     date: "Summers 2012-2014",
     points: [
@@ -203,30 +200,42 @@ const experiences: TExperience[] = [
   },
 ];
 
-const testimonials: TTestimonial[] = [
+const certifications: TCertifications[] = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    certification: "Security+ SY0-701",
+    organization: "CompTIA",
+    year: "2024",
+    image: creator,
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    certification: "Quantum Explorer",
+    organization: "IBM Quantum",
+    year: "2023-2024",
+    image: creator,
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    certification: "React.js Certificate",
+    organization: "Noble Desktop",
+    year: "2023",
+    image: creator,
+  },
+  {
+    certification: "Certified Scrum Product Owner",
+    organization: "Scrum Alliance",
+    year: "2021",
+    image: creator,
+  },
+  {
+    certification: "Certified Scrum Master",
+    organization: "Scrum Alliance",
+    year: "2012-2021",
+    image: creator,
+  },
+  {
+    certification: "Intro to Web Development Certificate",
+    organization: "Bellevue College",
+    year: "2009",
+    image: creator,
   },
 ];
 
@@ -296,5 +305,5 @@ const projects: TProject[] = [
   },
 ];
 
-export { experiences, projects, services, technologies, testimonials };
+export { experiences, projects, services, technologies, certifications as testimonials };
 
