@@ -1,17 +1,18 @@
 import { BrowserRouter } from "react-router-dom";
 
+import { useEffect } from "react";
 import {
   About,
+  Certifications,
+  EarthCanvas,
   // Contact,
   Experience,
-  Certifications,
   Hero,
   Navbar,
+  StarsCanvas,
   Tech,
   Works,
-  StarsCanvas,
 } from "./components";
-import { useEffect } from "react";
 import { config } from "./constants/config";
 
 const App = () => {
@@ -33,6 +34,7 @@ const App = () => {
         <Tech />
         <Works />
         <Certifications />
+        <EarthCanvas/>
         <div className="relative z-0">
           {/* <Contact /> */}
           <StarsCanvas />

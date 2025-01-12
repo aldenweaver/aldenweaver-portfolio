@@ -33,6 +33,7 @@ type TConfig = {
   sections: {
     about: Required<TSection>;
     experience: TSection;
+    skills: TSection;
     certifications: TSection;
     works: Required<TSection>;
   };
@@ -76,6 +77,10 @@ export const config: TConfig = {
     experience: {
       p: "Industry Track Record",
       h2: "Work Experience",
+    },
+    skills: {
+      p: "Tech I Use",
+      h2: "Skills",
     },
     certifications: {
       p: "Lifelong Learning",
