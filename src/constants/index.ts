@@ -1,37 +1,33 @@
 import type {
+  TExperience,
   TNavLink,
+  TProject,
   TService,
   TTechnology,
-  TExperience,
   TTestimonial,
-  TProject,
 } from "../types";
 
 import {
-  mobile,
   backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  html,
+  carrent,
   css,
+  git,
+  html,
+  javascript,
+  jobit,
+  meta,
+  mobile,
+  mongodb,
+  nodejs,
   reactjs,
   redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  starbucks,
+  tailwind,
+  tesla,
   threejs,
+  tripguide,
+  typescript
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -51,21 +47,21 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "Full Stack Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Web, Mobile, and Software Developer",
+    icon: mobile,
   },
+  // {
+  //   title: "Backend Developer",
+  //   icon: backend,
+  // },
+  // {
+  //   title: "Content Creator",
+  //   icon: creator,
+  // },
 ];
 
 const technologies: TTechnology[] = [
@@ -113,67 +109,96 @@ const technologies: TTechnology[] = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
+    title: "Intermediate Web Developer",
+    companyName: "Semper Valens Solutions",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing progressive web apps to support the health of military members & their families",
+      "Using JavaScript (React, Redux), TypeScript, Vite, & TailwindCSS",
+      "Learned Sitecore CMS & how to integrate it into React apps via GraphQL",
+      "Earned a CompTIA Security+ certification",
+      "Collaborating as a part of a development team; using GitHub, Jira, & Confluence",
+      "Working cross-functionally with PMs, UX, QA, devops, stakeholders, & other developers",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
+    title: "Technical Consultant",
+    companyName: "",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "June 2023 - June 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing SaaS platforms for a renewable energy startup & training AI coding chatbots",
+      "Collaborating with CEOs on technical vision, presentations, documents, & grants",
+      "Previous consulting includes high-performance computing SaaS platforms & mobile apps",
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
+    title: "Controls Engineer",
+    companyName: "H2Power Tech",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Sept 2021 - Oct 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed software using C#/.NET/WPF (dashboards, control panels, & data loggers) to talk to hardware (hydrogen fuel cells & programmable logic controllers)",
     ],
   },
   {
-    title: "Full stack Developer",
-    companyName: "Meta",
+    title: "App Tester & Hardware Manager",
+    companyName: "Focal Systems",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Oct 2020 - Mar 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Tested & improved mobile app & AI algorithm",
+      "Installed hardware to scan shelf inventory",
+    ],
+  },
+  {
+    title: "Software Engineer & Operations Manager",
+    companyName: "Mickom",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "Apr 2020 - Oct 2020",
+    points: [
+      "Engineer: Reviewed & tested mobile app code (Xamarin) & design (InVision)",
+      "Manager: Built SharePoint sites; managed projects & tasks; handled administrative duties",
+    ],
+  },
+  {
+    title: "Software Engineer I",
+    companyName: "Vertafore",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "Jun 2015 - Dec 2017",
+    points: [
+      "Collaborated with development, PM, & UX teams on projects such as diagnostic dashboards, client portals, internal portals, web forms, HTML emails, & UI component libraries.",
+    ],
+  },
+  {
+    title: "Software Engineer Internships",
+    companyName: "",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "Summers 2012-2014",
+    points: [
+      "Vertafore (2014): Built an Angular dashboard to show the health of our single sign-on system",
+      "Seattle Avionics Software (2013): Helped build a PostgreSQL DB, API, & front-end for a complex flight-planning app with many relational DB tables for airport & navigation data",
+      "SolutionsIQ (2012): Worked on an ASP.NET web app for T-Mobile, used by their CSRs, that allows for flexible business rules & logic",
     ],
   },
 ];
@@ -271,4 +296,5 @@ const projects: TProject[] = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { experiences, projects, services, technologies, testimonials };
+
