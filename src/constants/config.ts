@@ -71,8 +71,8 @@ export const config: TConfig = {
       content: `I am an experienced full-stack software, web, and mobile developer with industry experience, a strong education, and additional certifications. I've worked with many technologies, including multiple Javascript frameworks and libraries, C#/.NET, SQL, NoSQL, AI, Unity, and 3D models. I'm a quick learner who is passionate about using technology and teamwork to solve real-world problems and make the world a better place.`,
     },
     experience: {
-      p: "Industry Track Record",
-      h2: "Work Experience",
+      p: "Track Record",
+      h2: "Experience",
     },
     skills: {
       p: "Tech I Use",
