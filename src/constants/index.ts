@@ -44,11 +44,11 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "BA in Computer Science - Harvey Mudd College",
+    title: "BA in Computer Science - Harvey Mudd College, Claremont, CA",
     icon: backend,
   },
   {
-    title: "BA in Media Studies - Scripps College",
+    title: "BA in Media Studies - Scripps College, Claremont, CA",
     icon: web,
   }
   // {
