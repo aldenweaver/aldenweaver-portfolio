@@ -42,12 +42,14 @@ type TConfig = {
 export const config: TConfig = {
   html: {
     title: "Alden Weaver's Portfolio",
-    fullName: "Alden Weaver",
-    email: "aaldenweaver@gmail.com",
+    fullName: 'Alden Weaver',
+    email: 'aaldenweaver@gmail.com',
   },
   hero: {
-    name: "Alden Weaver",
-    p: ["Full stack developer specializing in Javascript & C#. Currently learning AI & ML."],
+    name: 'Alden Weaver',
+    p: [
+      'Builder, Engineer, & Consultant. \n Passionate about using technology to help the world. \n Health & Climate Tech.',
+    ],
   },
   // contact: {
   //   p: "Get in touch",
@@ -66,25 +68,25 @@ export const config: TConfig = {
   // },
   sections: {
     about: {
-      p: "Introduction",
-      h2: "Overview",
+      p: 'Introduction',
+      h2: 'Overview',
       content: `I am an experienced full-stack software, web, and mobile developer with industry experience, a strong education, and additional certifications. I've worked with many technologies, including multiple Javascript frameworks and libraries, C#/.NET, SQL, NoSQL, AI, Unity, and 3D models. I'm a quick learner who is passionate about using technology and teamwork to solve real-world problems and make the world a better place.`,
     },
     experience: {
-      p: "Track Record",
-      h2: "Experience",
+      p: 'Track Record',
+      h2: 'Experience',
     },
     skills: {
-      p: "Tech I Use",
-      h2: "Skills",
+      p: 'Tech I Use',
+      h2: 'Skills',
     },
     certifications: {
-      p: "Lifelong Learning",
-      h2: "Certifications",
+      p: 'Lifelong Learning',
+      h2: 'Certifications',
     },
     works: {
-      p: "Work Examples",
-      h2: "Projects",
+      p: 'Work Examples',
+      h2: 'Projects',
       content: `The following projects showcase my skills and experience through
     real-world examples of my work. Many of these are simple exercises; however, I have more experience working on proprietary projects.`,
     },
