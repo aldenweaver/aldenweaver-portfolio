@@ -8,7 +8,6 @@ import type {
 } from '../types';
 
 import {
-  angular,
   backend,
   creator,
   csharp,
@@ -23,6 +22,8 @@ import {
   javascript,
   lists_exercise,
   mongodb,
+  mysql,
+  nextjs,
   nodejs,
   postgresql,
   python,
@@ -33,6 +34,7 @@ import {
   tailwind,
   threejs,
   typescript,
+  vite,
   web,
 } from '../assets';
 
@@ -116,8 +118,8 @@ const technologies: TTechnology[] = [
     icon: redux,
   },
   {
-    name: 'Angular',
-    icon: angular,
+    name: 'Next.js',
+    icon: nextjs,
   },
   {
     name: 'Tailwind CSS',
@@ -126,6 +128,14 @@ const technologies: TTechnology[] = [
   {
     name: 'Node JS',
     icon: nodejs,
+  },
+  {
+    name: 'Vite',
+    icon: vite,
+  },
+  {
+    name: 'MySQL',
+    icon: mysql,
   },
   {
     name: 'PostgreSQL',
