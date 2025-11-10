@@ -19,6 +19,7 @@ import {
   lists_exercise,
   mongodb,
   nodejs,
+  postgresql,
   python,
   reactjs,
   redux,
@@ -107,6 +108,10 @@ const technologies: TTechnology[] = [
   {
     name: 'Node JS',
     icon: nodejs,
+  },
+  {
+    name: 'PostgreSQL',
+    icon: postgresql,
   },
   {
     name: 'MongoDB',
