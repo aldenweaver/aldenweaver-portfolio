@@ -11,7 +11,7 @@ import {
   Navbar,
   StarsCanvas,
   Tech,
-  Works,
+  // Works,
 } from "./components";
 import { config } from "./constants/config";
 
@@ -32,7 +32,7 @@ const App = () => {
         <About />
         <Experience />
         <Tech />
-        <Works />
+        {/* <Works /> */}
         <Certifications />
         <EarthCanvas/>
         <div className="relative z-0">

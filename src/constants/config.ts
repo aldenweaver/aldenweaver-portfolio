@@ -41,14 +41,14 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "Alden Weaver's Portfolio",
+    title: "Alden Weaver",
     fullName: 'Alden Weaver',
     email: 'aaldenweaver@gmail.com',
   },
   hero: {
     name: 'Alden Weaver',
     p: [
-      'Builder, Engineer, & Consultant. \n Passionate about using technology to help the world. \n Health & Climate Tech.',
+      'Software Engineer & Technical Writer. \n 10+ years building software and writing documentation. \n Combining engineering expertise with technical communication.',
     ],
   },
   // contact: {
@@ -70,7 +70,7 @@ export const config: TConfig = {
     about: {
       p: 'Introduction',
       h2: 'Overview',
-      content: `I am an experienced full-stack software, web, and mobile developer with industry experience, a strong education, and additional certifications. I've worked with many technologies, including multiple Javascript frameworks and libraries, C#/.NET, SQL, NoSQL, AI, Unity, and 3D models. I'm a quick learner who is passionate about using technology and teamwork to solve real-world problems and make the world a better place.`,
+      content: `After 10+ years as a software engineer, I've worked on everything from hydrogen fuel cell control systems to military family health platforms. But somewhere along the way, I discovered something unexpected: my real superpower isn't just writing code—it's also explaining code. I enjoy writing documentation because I care about the next developer's experience. I've volunteered to give technical presentations and represent tech communities at major conferences. The signs are there: I am an engineer but also a technical writer who is passionate about making sure code is clear to everyone and product instructions are easy for stakeholders to use. I'm currently exploring how AI can help automate documentation quality while keeping humans in the loop. This intersection of engineering depth, technical communication, and AI-assisted development is where I thrive.`,
     },
     experience: {
       p: 'Track Record',
