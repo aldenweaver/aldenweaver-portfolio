@@ -4,7 +4,6 @@ import { useEffect } from "react";
 import {
   About,
   Certifications,
-  EarthCanvas,
   // Contact,
   Experience,
   Hero,
@@ -39,7 +38,6 @@ const App = () => {
           <Tech />
           {/* <Works /> */}
           <Certifications />
-          <EarthCanvas/>
         </main>
       </div>
     </BrowserRouter>
