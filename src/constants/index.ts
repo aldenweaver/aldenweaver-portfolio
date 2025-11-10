@@ -32,7 +32,6 @@ import {
   slack,
   space_exercise,
   tailwind,
-  threejs,
   typescript,
   vite,
   web,
@@ -148,10 +147,6 @@ const technologies: TTechnology[] = [
   {
     name: 'GraphQL',
     icon: graphql,
-  },
-  {
-    name: 'Three JS',
-    icon: threejs,
   },
   {
     name: 'git',
