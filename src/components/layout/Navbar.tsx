@@ -93,13 +93,13 @@ const Navbar = () => {
             aria-label={toggle ? "Close menu" : "Open menu"}
             aria-expanded={toggle}
             aria-controls="mobile-menu"
-            className="h-[28px] w-[28px] p-0 border-0 bg-transparent cursor-pointer"
+            className="h-[44px] w-[44px] p-2 border-0 bg-transparent cursor-pointer flex items-center justify-center"
           >
             <img
               src={toggle ? close : menu}
               alt=""
               aria-hidden="true"
-              className="h-full w-full object-contain"
+              className="h-[28px] w-[28px] object-contain"
             />
           </button>
 
