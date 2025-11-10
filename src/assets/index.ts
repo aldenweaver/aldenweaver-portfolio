@@ -18,18 +18,14 @@ import html from "./tech/html.png";
 import java from "./tech/java.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
-import mysql from "./tech/mysql.png";
 import nextjs from "./tech/nextjs.png";
 import nodejs from "./tech/nodejs.png";
 import postgresql from "./tech/postgresql.png";
 import python from "./tech/python.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import slack from "./tech/slack.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import typescript from "./tech/typescript.png";
-import vite from "./tech/vite.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -50,10 +46,10 @@ export {
   discord, docker,
   figma,
   git, github, graphql, grid_exercise, html,
-  java, javascript, jobit, lists_exercise, logo, menu, meta, mobile, mongodb, mysql,
+  java, javascript, jobit, lists_exercise, logo, menu, meta, mobile, mongodb,
   nextjs, nodejs, postgresql, python,
   reactjs,
-  redux, shopify, slack, space_exercise, starbucks, tailwind, tesla, threejs, tripguide, typescript,
-  vite, web
+  shopify, space_exercise, starbucks, tailwind, tesla, threejs, tripguide, typescript,
+  web
 };
 

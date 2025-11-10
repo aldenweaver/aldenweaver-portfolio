@@ -22,18 +22,14 @@ import {
   javascript,
   lists_exercise,
   mongodb,
-  mysql,
   nextjs,
   nodejs,
   postgresql,
   python,
   reactjs,
-  redux,
-  slack,
   space_exercise,
   tailwind,
   typescript,
-  vite,
   web,
 } from '../assets';
 
@@ -113,10 +109,6 @@ const technologies: TTechnology[] = [
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
     name: 'Next.js',
     icon: nextjs,
   },
@@ -127,14 +119,6 @@ const technologies: TTechnology[] = [
   {
     name: 'Node JS',
     icon: nodejs,
-  },
-  {
-    name: 'Vite',
-    icon: vite,
-  },
-  {
-    name: 'MySQL',
-    icon: mysql,
   },
   {
     name: 'PostgreSQL',
@@ -155,10 +139,6 @@ const technologies: TTechnology[] = [
   {
     name: 'docker',
     icon: docker,
-  },
-  {
-    name: 'Slack',
-    icon: slack,
   },
   {
     name: 'Discord',
