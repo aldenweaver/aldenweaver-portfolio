@@ -7,6 +7,8 @@ import menu from "./menu.svg";
 import mobile from "./mobile.png";
 import web from "./web.png";
 
+import angular from "./tech/angular.png";
+import csharp from "./tech/csharp.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -40,7 +42,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
-  backend, carrent, close, creator, css,
+  angular, backend, carrent, close, creator, csharp, css,
   docker,
   figma,
   git, github, graphql, grid_exercise, html,

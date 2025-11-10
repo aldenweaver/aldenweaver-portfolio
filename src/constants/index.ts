@@ -8,8 +8,10 @@ import type {
 } from '../types';
 
 import {
+  angular,
   backend,
   creator,
+  csharp,
   css,
   docker,
   git,
@@ -92,6 +94,10 @@ const technologies: TTechnology[] = [
     icon: java,
   },
   {
+    name: 'C#',
+    icon: csharp,
+  },
+  {
     name: 'HTML 5',
     icon: html,
   },
@@ -106,6 +112,10 @@ const technologies: TTechnology[] = [
   {
     name: 'Redux Toolkit',
     icon: redux,
+  },
+  {
+    name: 'Angular',
+    icon: angular,
   },
   {
     name: 'Tailwind CSS',
