@@ -16,6 +16,7 @@ import {
   graphql,
   grid_exercise,
   html,
+  java,
   javascript,
   lists_exercise,
   mongodb,
@@ -85,6 +86,10 @@ const technologies: TTechnology[] = [
   {
     name: 'TypeScript',
     icon: typescript,
+  },
+  {
+    name: 'Java',
+    icon: java,
   },
   {
     name: 'HTML 5',

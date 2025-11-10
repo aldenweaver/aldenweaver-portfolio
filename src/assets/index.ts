@@ -13,6 +13,7 @@ import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import graphql from "./tech/graphql.png";
 import html from "./tech/html.png";
+import java from "./tech/java.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
@@ -43,7 +44,7 @@ export {
   docker,
   figma,
   git, github, graphql, grid_exercise, html,
-  javascript, jobit, lists_exercise, logo, menu, meta, mobile, mongodb,
+  java, javascript, jobit, lists_exercise, logo, menu, meta, mobile, mongodb,
   nodejs, postgresql, python,
   reactjs,
   redux, shopify, space_exercise, starbucks, tailwind, tesla, threejs, tripguide, typescript, web
