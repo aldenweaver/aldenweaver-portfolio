@@ -24,17 +24,24 @@ const App = () => {
 
   return (
     <BrowserRouter>
+      <a href="#main-content" className="skip-to-main">
+        Skip to main content
+      </a>
       <div className="bg-primary relative z-0">
-        <div className="bg-hero-pattern bg-cover bg-center bg-no-repeat">
-          <Navbar />
-          <Hero />
-        </div>
-        <About />
-        <Experience />
-        <Tech />
-        {/* <Works /> */}
-        <Certifications />
-        <EarthCanvas/>
+        <header>
+          <div className="bg-hero-pattern bg-cover bg-center bg-no-repeat">
+            <Navbar />
+            <Hero />
+          </div>
+        </header>
+        <main id="main-content">
+          <About />
+          <Experience />
+          <Tech />
+          {/* <Works /> */}
+          <Certifications />
+          <EarthCanvas/>
+        </main>
         <div className="relative z-0">
           {/* <Contact /> */}
           <StarsCanvas />

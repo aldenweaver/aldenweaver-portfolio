@@ -61,6 +61,8 @@ const ComputersCanvas = () => {
         dpr={[1, 2]}
         camera={{ position: [20, 3, 5], fov: 25 }}
         gl={{ preserveDrawingBuffer: true }}
+        role="img"
+        aria-label="3D computer model"
       >
         <Suspense fallback={<CanvasLoader />}>
           <OrbitControls
@@ -73,6 +75,7 @@ const ComputersCanvas = () => {
         </Suspense>
         <Preload all />
       </Canvas>
+      <span className="sr-only">Interactive 3D computer model display</span>
     </>
   );
 };

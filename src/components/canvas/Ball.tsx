@@ -44,6 +44,8 @@ const BallCanvas: React.FC<{ icon: string }> = ({ icon }) => {
       frameloop="demand"
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
+      role="img"
+      aria-label="Technology icon"
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enablePan={false} enableZoom={false} />
