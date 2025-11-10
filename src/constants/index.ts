@@ -87,16 +87,12 @@ const technologies: TTechnology[] = [
     icon: typescript,
   },
   {
-    name: 'Java',
-    icon: java,
-  },
-  {
-    name: 'C#',
-    icon: csharp,
-  },
-  {
     name: 'React JS',
     icon: reactjs,
+  },
+  {
+    name: 'Node JS',
+    icon: nodejs,
   },
   {
     name: 'Next.js',
@@ -107,8 +103,12 @@ const technologies: TTechnology[] = [
     icon: tailwind,
   },
   {
-    name: 'Node JS',
-    icon: nodejs,
+    name: 'C#',
+    icon: csharp,
+  },
+  {
+    name: 'Java',
+    icon: java,
   },
   {
     name: 'PostgreSQL',
@@ -123,12 +123,12 @@ const technologies: TTechnology[] = [
     icon: graphql,
   },
   {
-    name: 'git',
-    icon: git,
-  },
-  {
     name: 'docker',
     icon: docker,
+  },
+  {
+    name: 'git',
+    icon: git,
   },
   {
     name: 'Discord',
