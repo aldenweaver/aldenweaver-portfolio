@@ -11,6 +11,7 @@ import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
+import graphql from "./tech/graphql.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
@@ -41,7 +42,7 @@ export {
   backend, carrent, close, creator, css,
   docker,
   figma,
-  git, github, grid_exercise, html,
+  git, github, graphql, grid_exercise, html,
   javascript, jobit, lists_exercise, logo, menu, meta, mobile, mongodb,
   nodejs, postgresql, python,
   reactjs,

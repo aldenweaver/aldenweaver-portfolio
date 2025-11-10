@@ -13,6 +13,7 @@ import {
   css,
   docker,
   git,
+  graphql,
   grid_exercise,
   html,
   javascript,
@@ -116,6 +117,10 @@ const technologies: TTechnology[] = [
   {
     name: 'MongoDB',
     icon: mongodb,
+  },
+  {
+    name: 'GraphQL',
+    icon: graphql,
   },
   {
     name: 'Three JS',
