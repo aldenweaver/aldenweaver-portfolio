@@ -11,13 +11,11 @@ import {
   backend,
   creator,
   csharp,
-  css,
   discord,
   docker,
   git,
   graphql,
   grid_exercise,
-  html,
   java,
   javascript,
   lists_exercise,
@@ -95,14 +93,6 @@ const technologies: TTechnology[] = [
   {
     name: 'C#',
     icon: csharp,
-  },
-  {
-    name: 'HTML 5',
-    icon: html,
-  },
-  {
-    name: 'CSS 3',
-    icon: css,
   },
   {
     name: 'React JS',

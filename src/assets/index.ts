@@ -8,13 +8,11 @@ import mobile from "./mobile.png";
 import web from "./web.png";
 
 import csharp from "./tech/csharp.png";
-import css from "./tech/css.png";
 import discord from "./tech/discord.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import graphql from "./tech/graphql.png";
-import html from "./tech/html.png";
 import java from "./tech/java.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
@@ -42,10 +40,10 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
-  backend, carrent, close, creator, csharp, css,
+  backend, carrent, close, creator, csharp,
   discord, docker,
   figma,
-  git, github, graphql, grid_exercise, html,
+  git, github, graphql, grid_exercise,
   java, javascript, jobit, lists_exercise, logo, menu, meta, mobile, mongodb,
   nextjs, nodejs, postgresql, python,
   reactjs,
