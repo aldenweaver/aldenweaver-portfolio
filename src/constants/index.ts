@@ -19,6 +19,7 @@ import {
   lists_exercise,
   mongodb,
   nodejs,
+  python,
   reactjs,
   redux,
   space_exercise,
@@ -72,12 +73,8 @@ const services: TService[] = [
 
 const technologies: TTechnology[] = [
   {
-    name: 'HTML 5',
-    icon: html,
-  },
-  {
-    name: 'CSS 3',
-    icon: css,
+    name: 'Python',
+    icon: python,
   },
   {
     name: 'JavaScript',
@@ -86,6 +83,14 @@ const technologies: TTechnology[] = [
   {
     name: 'TypeScript',
     icon: typescript,
+  },
+  {
+    name: 'HTML 5',
+    icon: html,
+  },
+  {
+    name: 'CSS 3',
+    icon: css,
   },
   {
     name: 'React JS',

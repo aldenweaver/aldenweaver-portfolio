@@ -15,6 +15,7 @@ import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
+import python from "./tech/python.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
@@ -41,7 +42,7 @@ export {
   figma,
   git, github, grid_exercise, html,
   javascript, jobit, lists_exercise, logo, menu, meta, mobile, mongodb,
-  nodejs,
+  nodejs, python,
   reactjs,
   redux, shopify, space_exercise, starbucks, tailwind, tesla, threejs, tripguide, typescript, web
 };
