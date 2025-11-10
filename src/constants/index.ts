@@ -13,6 +13,7 @@ import {
   creator,
   csharp,
   css,
+  discord,
   docker,
   git,
   graphql,
@@ -27,6 +28,7 @@ import {
   python,
   reactjs,
   redux,
+  slack,
   space_exercise,
   tailwind,
   threejs,
@@ -149,6 +151,14 @@ const technologies: TTechnology[] = [
     name: 'docker',
     icon: docker,
   },
+  {
+    name: 'Slack',
+    icon: slack,
+  },
+  {
+    name: 'Discord',
+    icon: discord,
+  },
   // {
   //   name: "figma",
   //   icon: figma,
@@ -173,7 +183,7 @@ const experiences: TExperience[] = [
     title: 'Web Developer',
     companyName: 'Semper Valens Solutions',
     icon: creator,
-    iconBg: '#383E56',
+    iconBg: '#E6DEDD',
     date: 'June 2024 - August 2025',
     points: [
       'Developing progressive web apps to support the health of military members & their families',
@@ -188,7 +198,7 @@ const experiences: TExperience[] = [
     title: 'Technical Consultant',
     companyName: '',
     icon: creator,
-    iconBg: '#E6DEDD',
+    iconBg: '#383E56',
     date: 'January 2018 - September 2025',
     points: [
       'Worked with high-performance computing company to get their dev team accepted as presenters at the Ubuntu Summit; worked with presenters to refine their presentations, community presence, and developer documentation',
@@ -203,7 +213,7 @@ const experiences: TExperience[] = [
     title: 'Controls Engineer',
     companyName: 'H2Power Tech',
     icon: creator,
-    iconBg: '#383E56',
+    iconBg: '#E6DEDD',
     date: 'September 2021 - October 2022',
     points: [
       'Developed C#/.NET/WPF software (dashboards, control panels, data loggers) to interface with hydrogen fuel cells & programmable logic controllers',
@@ -215,7 +225,7 @@ const experiences: TExperience[] = [
     title: 'Software Engineer',
     companyName: 'Vertafore',
     icon: creator,
-    iconBg: '#E6DEDD',
+    iconBg: '#383E56',
     date: 'June 2015 - December 2017',
     points: [
       'Used C#/.NET & React.js to code diagnostic dashboards for the Single Sign On team',

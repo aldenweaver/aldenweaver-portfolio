@@ -10,6 +10,7 @@ import web from "./web.png";
 import angular from "./tech/angular.png";
 import csharp from "./tech/csharp.png";
 import css from "./tech/css.png";
+import discord from "./tech/discord.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -23,6 +24,7 @@ import postgresql from "./tech/postgresql.png";
 import python from "./tech/python.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
+import slack from "./tech/slack.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import typescript from "./tech/typescript.png";
@@ -43,12 +45,12 @@ import tripguide from "./tripguide.png";
 
 export {
   angular, backend, carrent, close, creator, csharp, css,
-  docker,
+  discord, docker,
   figma,
   git, github, graphql, grid_exercise, html,
   java, javascript, jobit, lists_exercise, logo, menu, meta, mobile, mongodb,
   nodejs, postgresql, python,
   reactjs,
-  redux, shopify, space_exercise, starbucks, tailwind, tesla, threejs, tripguide, typescript, web
+  redux, shopify, slack, space_exercise, starbucks, tailwind, tesla, threejs, tripguide, typescript, web
 };
 
