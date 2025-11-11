@@ -70,7 +70,7 @@ export const config: TConfig = {
     about: {
       p: 'Introduction',
       h2: 'Overview',
-      content: `After 10+ years as a software engineer, I've worked on everything from hydrogen fuel cell control systems to military family health platforms. But somewhere along the way, I discovered something unexpected: my real superpower isn't just writing code—it's also explaining code. I enjoy writing documentation because I care about the next developer's experience. I've volunteered to give technical presentations and represent tech communities at major conferences. The signs are there: I am an engineer but also a technical writer who is passionate about making sure code is clear to everyone and product instructions are easy for stakeholders to use. I'm currently exploring how AI can help automate documentation quality while keeping humans in the loop. This intersection of engineering depth, technical communication, and AI-assisted development is where I thrive.`,
+      content: `Software Engineer & Technical Writer with 10+ years of experience building complex systems & creating developer-focused content. Worked on everything from hydrogen fuel cell control systems to military family health apps. Early adopter of AI-assisted development workflows, using Claude Code since July 2025 after experience with prior AI coding tools & with training AI chatbots to write better code. Built production-quality documentation analyzer demonstrating deep understanding of information architecture, developer workflows, & technical content creation. Combining Computer Science & Media Studies education with industry experience & passion for championing safe technology to better the world.`,
     },
     experience: {
       p: 'Track Record',
